@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <title>Horse</title>
+</head>
+<body id="horse-background">
+<button onclick="toggleBackgroundColor()">
+    PICK ME!
+</button>
+    <div class="container mt-3">
+        <ul class="navbar-format">
+            <li class="navbar-list"><a href="index.html">Home</a></li>
+            <li class="navbar-list"><a href="dog.html">Dog</a></li>
+            <li class="navbar-list"><a href="cat.html">Cat</a></li>
+            <li class="navbar-list"><a href="swan.html">Swan</a></li>
+            <li class="navbar-list"><a href="tiger.html">Tiger</a></li>
+            <li class="navbar-list"><a class="active" href="horse.html">Horse</a></li>
+            <li class="navbar-list"><a href="flamingo.html">Flamingo</a></li>
+        </ul>
+    </div>
+        <h1 id="horse-heading">Horse</h1>
+        <h3 class="latin-heading">Equus ferus caballus</h3>
+        <div>
+            <p id="demo" onclick="myFunction()">CLICK ME!</p>
+            <img id="myImage"
+                src="images/horse.png"
+                alt="A horse"
+                width="700"
+                height="500"
+                class="rounded"
+                onmouseover="changeImageSource()"
+                >
+        </div>
+        <p class="style-element-1"> -------------------- ~~~~~~~~ -------------------- </p>
+        <div class="columns-container-3" id="text" onmouseover="enlargeText()" onmouseleave="restoreTextSize()">
+            <div class="column">
+                Horses have been an integral part of human history for thousands of years, serving as companions, workers, and
+                symbols of power and freedom. Belonging to the species <i>Equus ferus caballus</i>, horses were domesticated around
+                4,000 years ago on the steppes of Central Asia. They have since evolved into various breeds, each adapted for
+                specific tasks and environments. From the powerful <i>Clydesdales</i> used in agriculture to the swift Thoroughbreds
+                dominating the racing tracks, horses display a remarkable diversity in size, strength, and agility. Their
+                physical attributes, including strong legs, keen senses, and a robust cardiovascular system, make them
+                exceptional athletes capable of impressive speed and endurance.
+            </div>
+            <div class="column">
+                Horses are highly social animals that thrive in herds, where they establish a clear social hierarchy. Within
+                these groups, horses communicate through a range of vocalizations, body language, and even facial expressions.
+                They form strong bonds with other horses and can also develop deep connections with humans. This social nature
+                makes horses responsive to training and capable of understanding complex commands, which has made them
+                invaluable in various human activities, from transportation and agriculture to sports and therapy. Equine-
+                assisted therapy, for example, harnesses the calming presence of horses to help individuals with physical,
+                emotional, and cognitive challenges.
+            </div>
+            <div class="column">
+                In modern times, horses continue to play significant roles in both work and leisure. While their use in
+                agriculture and transportation has diminished with technological advancements, horses are still essential in
+                many cultural traditions, competitive sports, and recreational activities. Equestrian events, such as dressage,
+                show jumping, and rodeo, celebrate the skill and partnership between horse and rider. Additionally, horses
+                contribute to conservation efforts through their grazing habits, which can help manage landscapes and promote
+                biodiversity. The enduring relationship between humans and horses highlights not only their utility but also the
+                deep emotional and cultural bonds that have been forged over millennia.
+            </div>
+        </div>
+        <p class="style-element-1"> -------------------- ~~~~~~~~ -------------------- </p>
+        <div class="facts-section" id="section"
+             onmouseleave="changeBackgroundColor()"
+             onmouseover="restoreBackgroundColor()">
+            <h5 class="facts-heading">Fun facts about horses</h5>
+            <ul>
+                <li>The <a href="https://en.wikipedia.org/wiki/Arabian_horse" target="_blank">Arabian horse</a>,
+                    is one of the oldest and most influential horse breeds, known for its endurance,
+                    intelligence, and distinctive appearance.</li>
+                <li>Horses have the largest eyes of any land mammal, providing them with
+                    exceptional vision and depth perception.</li>
+                <li>A horse's heart is one of the largest of any land mammal, weighing
+                    around 9 to 10 pounds (4 to 4.5 kilograms).</li>
+                <li>Horses have a remarkable memory, capable of remembering people, places,
+                    and experiences for many years.</li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <div class="columns-container-2">
+            <p>SCIENTIFIC CLASSIFICATION</p>
+            <div class="column">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Name</td>
+                            <td><i>Equus ferus caballus</i></td>
+                        </tr>
+                        <tr>
+                            <td>Family</td>
+                            <td><i>Equidae</i></td>
+                        </tr>
+                        <tr>
+                            <td>Order</td>
+                            <td><i>Perissodactyla</i></td>
+                        </tr>
+                        <tr>
+                            <td>Class</td>
+                            <td><i>Mammalia</i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br>
+            <br>
+            <br>
+            <p>THE WORLD OF HORSES INSIDE OUT</p>
+            <div class="columns">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/P9HZ-dzAmjM?si=3A9i3D0AoBp4eI5v"
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                    encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+        <div>
+            <br>
+            <br>
+            <a href="horse.html">
+                <button type="button" class="btn btn-secondary">
+                    Back to the top
+                </button>
+            </a>
+        </div>
+        <footer class="footer-style">
+            <p>&copy; 2024 Liisi Kume</p>
+        </footer>
+    </div>
+</body>
+</html>
